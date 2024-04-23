@@ -64,14 +64,14 @@ const Footer = () => {
             </div>
             <div className="footer-bottom mx-auto">
                 <hr className='bg-white opacity-20 mt-8 mb-8' />
-                <div className="footer-bottom-content grid md:flex-row lg:grid-cols-4 justify-between gap-5 md:gap-10 lg:gap-16">
+                <div className="footer-bottom-content grid md:flex-row lg:grid-cols-2 justify-between gap-5 md:gap-10 ">
                     <div className="footer-left flex flex-col w-full md:w-80 gap-3">
                         <Image src={LogoFooter} alt='logo'  />
                         <p className='text-white text-sm md:text-base font-normal'>Lorem Ipsum is simply  it is dummy rummy dummy text of the since it is printing and typesetting’s the and it industry's standard dummy text ever since the 150.</p>
                         <p className='text-white mt-2'>Address</p>
                         <h3 className='text-white -mt-2 text-sm md:text-xl font-bold'>4516 School Street, Danbury, CT, Canada, 458068</h3>
                     </div>
-                    <div className='flex flex-col md:flex-row gap-5 md:gap-32 '>
+                    <div className='flex flex-col md:flex-row gap-5  '>
                         <div className="footer-right flex flex-col gap-3">
                             <h2 className='text-sm md:text-2xl text-white font-bold'>Navigation</h2>
                             <Image src={whitehrline} alt='line'  />

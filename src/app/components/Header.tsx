@@ -17,7 +17,7 @@ const Header = () => {
         <div className="header-top">
             <header className='header w-full p-3'>
                 <div className='w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center'>
-                    <div className="flex flex-col md:flex-row gap-2 md:gap-6 items-center">
+                    <div className="flex flex-col md:flex-row  md:gap-6 items-center ">
                         <p className='text-white'>Welcome to the best TRoo Organic Grocery Store</p>
                         <p className='text-white hidden md:block'><strong>50%</strong> Clearance Sale</p>
                     </div>
